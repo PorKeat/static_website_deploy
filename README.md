@@ -1,6 +1,6 @@
 ## 🌐 Overview
 
-This project demonstrates how to deploy a **static website** with the main HTML (`index.html`), CSS (`style.css`), and other assets located in the `src/` folder using **Vercel**.
+**Just a quick share for those who may not know yet 🖥️:** How to deploy a **static website** with the main HTML (`index.html`), CSS (`style.css`), and other assets located in the `src/` folder using **Vercel**.
 
 ---
 
@@ -12,7 +12,7 @@ This project demonstrates how to deploy a **static website** with the main HTML 
 └── src/
     ├── index.html
     ├── style.css
-    └── other-assets.js
+    └── other-assets
 ```
 
 ---
@@ -45,7 +45,7 @@ This project demonstrates how to deploy a **static website** with the main HTML 
 
 ---
 
-## You Also Can Just Config Wtih Vercel Without vercel.json It Much Easier
+## You Also Can Just Config Wtih Vercel Without **`vercel.json`** It Much Easier
 
 <img width="555" alt="image" src="https://github.com/user-attachments/assets/272143cc-56b8-4666-a215-824e1e137191" />
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/cc53e0d1-4454-4b12-b689-78cbd7153133" />
