@@ -1,8 +1,11 @@
-## Overview
+## 🌐 Overview
 
-This project demonstrates how to deploy a static website with the main HTML (`index.html`), CSS (`style.css`), and other assets in the `src/` folder using **Vercel**.
+This project demonstrates how to deploy a **static website** with the main HTML (`index.html`), CSS (`style.css`), and other assets located in the `src/` folder using **Vercel**.
 
-## Folder Structure
+---
+
+## 📁 Folder Structure
+
 ```
 /
 ├── vercel.json
@@ -12,7 +15,10 @@ This project demonstrates how to deploy a static website with the main HTML (`in
     └── other-assets.js
 ```
 
-## `vercel.json` Configuration
+---
+
+## ⚙️ `vercel.json` Configuration
+
 ```
 {
   "version": 2,
@@ -24,14 +30,16 @@ This project demonstrates how to deploy a static website with the main HTML (`in
   ]
 }
 ```
-Explanation:
-Version: Defines the Vercel platform version (2).
 
-Routes: All requests (e.g., /, /style.css, /about.html) are routed to the src/ folder using the $1 captured group.
+### 🧠 Explanation
 
-"src": "/(.*)": Matches any URL.
+- **`version`**: Defines the Vercel platform version (`2`).
 
-"dest": "/src/$1": Maps the request to the appropriate file inside the src/ folder.
+- **`routes`**: All requests (e.g., `/`, `/style.css`, `/about.html`) are routed to the `src/` folder using the `$1` captured group.
+
+- **`"src": "/(.*)"`**: Matches any URL pattern using a regular expression.
+
+- **`"dest": "/src/$1"`**: Maps the request to the appropriate file inside the `src/` folder by capturing the URL path.
 
 ## You Also Can Just Config Wtih Vercel Without vercel.json It Much Easier
 
